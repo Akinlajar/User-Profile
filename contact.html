@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+
+    <form action="" method="POST">
+        <label for="firstname">First Name</label>
+        <input type="text" name="firstname" placeholder="First Name" value="amaobi" required > <br>
+        <label for="lastname">Last Name</label>
+        <input type="text" name="lastname" placeholder="Last Name"><br>
+        <label for="password">Password</label>
+        <input type="password" name="password"><br>
+        <label for="age">Age</label>
+        <input type="number" name="age" ><br>
+        <label for="phone">Phone</label>
+        <input type="tel" name="phonenumber" ><br>
+        <label for="description">Description</label>
+        <textarea name="description"></textarea><br> <br>
+
+        <label for="vehicle">Select your vehicle</label><br>
+        <input type="checkbox" name="vehicle1" value="Mustang" checked> <label for="vehicle1"> I have a Mustang</label><br>
+        <input type="checkbox" name="vehicle2" value="Dodge"> <label for="vehicle2"> I have a Dodge</label><br>
+        <input type="checkbox" name="vehicle3" value="Porshe"> <label for="vehicle3"> I have a Porshe</label> <br>
+
+        <label for="Sex">Gender</label><br>
+        <input type="radio" name="sex" value="Male" checked> <label for="male">Male</label>
+        <input type="radio" name="sex" value="Female"> <label for="female">Female</label>
+        <input type="radio" name="sex" value="none"> <label for="female">Prefer not to say</label>
+        <br>
+        <label for="nationality">Nationality</label>
+        <select name="nationality">
+            <option> Please Select your nationality</option>
+            <option value="Nigeria">Nigeria</option>
+            <option value="Ghana">Ghana</option>
+            <option value="Kenya">Kenya</option>
+            <option value="South Africa">South Africa</option>
+
+        </select>
+        <br>
+
+        <input type="submit" value="Submit"> <!-- This is the most used button type to submit a form-->
+
+        <button type="button" id="cancel-button" > Cancel</button>
+    </form>
+    
+</body>
+</html>
