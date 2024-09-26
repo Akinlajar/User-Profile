@@ -1,0 +1,17 @@
+p{
+    color: pink;
+}
+
+
+/* div.description{
+    color: cadetblue;
+}   */
+
+div .description{
+    color: blueviolet;
+}
+
+
+div>.description{
+    color: yellowgreen;
+}
